@@ -25,7 +25,7 @@ const otpController = {
 
           res.status(200).json({
             success: true,
-            data: { message: "OTP Sent Successfully!" },
+            data: { message: "Mail Sent Successfully!" },
           });
         }
     } catch (error) {
